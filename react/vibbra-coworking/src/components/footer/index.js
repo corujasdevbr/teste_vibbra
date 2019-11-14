@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Rodape() {
+function Footer() {
     return (
         <footer className="footer mt-auto py-3">
             <div className="container-fluid mt-4">
@@ -11,3 +11,5 @@ function Rodape() {
     );
 
 }
+
+export default Footer;

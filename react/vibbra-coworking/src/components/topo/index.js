@@ -21,7 +21,7 @@ function Topo(props) {
                                     <hr className="my-4" />
                                     <p className="card-text">Ofereça seu espaço para profissionais e lucre, conheça
                                     profissionais altamente qualificados</p>
-                                    <a href='' className="btn btn-primary">Criar Conta</a>
+                                    <a href='/conta/rh' className="btn btn-primary">Criar Conta</a>
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ function Topo(props) {
                                     <hr className="my-4" />
                                     <p className="card-text">Encontre Locais rapidamente, de forma segura com um otimo
                                     custo benefíco e faça muito networking</p>
-                                    <a href="../conta/profissional.html" className="btn btn-primary">Criar Conta</a>
+                                    <a href="/conta/profissional" className="btn btn-primary">Criar Conta</a>
                                 </div>
                             </div>
                         </div>
