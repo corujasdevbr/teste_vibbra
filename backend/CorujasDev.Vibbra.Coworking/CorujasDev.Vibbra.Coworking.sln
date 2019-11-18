@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{CD80D76C-7A23-49E9-8C75-985C5DF389C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{92A8979F-2066-4E35-9B8F-A950463A3FFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 - Infra", "2.1 - Infra", "{954C9305-4AFE-406F-B9AE-18F1D50FC6BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{EE7DC221-1BE9-43DB-854F-32190ED87284}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Web", "4 - Web", "{F9FE76B5-AB95-4D76-8CF8-31E16D47C731}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorujasDev.Vibbra.Coworking.Domain", "src\CorujasDev.Vibbra.Coworking.Domain\CorujasDev.Vibbra.Coworking.Domain.csproj", "{23E5005D-1DCE-4DCC-9CC7-4A8E790988E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Core", "5 - Core", "{1E15F715-2D70-413A-AB15-1380BEA9F425}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorujasDev.Vibbra.Coworking.Core", "src\CorujasDev.Vibbra.Coworking.Core\CorujasDev.Vibbra.Coworking.Core.csproj", "{B4E21690-6ED8-46B3-9039-9AAEEAA2726E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorujasDev.Vibbra.Coworking.Infra.Data", "src\CorujasDev.Vibbra.Coworking.Infra.Data\CorujasDev.Vibbra.Coworking.Infra.Data.csproj", "{EC9FD097-77CD-40A4-8B6E-B21CDC3FF641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorujasDev.Vibbra.Coworking.Application", "src\CorujasDev.Vibbra.Coworking.Application\CorujasDev.Vibbra.Coworking.Application.csproj", "{D3375372-577F-4309-AA2A-E6E6F8694B07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorujasDev.Vibbra.Coworking.Web.Api", "src\CorujasDev.Vibbra.Coworking.Web.Api\CorujasDev.Vibbra.Coworking.Web.Api.csproj", "{71D05CC4-6455-4293-B8E8-49BC7CEAC7E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23E5005D-1DCE-4DCC-9CC7-4A8E790988E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E5005D-1DCE-4DCC-9CC7-4A8E790988E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E5005D-1DCE-4DCC-9CC7-4A8E790988E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E5005D-1DCE-4DCC-9CC7-4A8E790988E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E21690-6ED8-46B3-9039-9AAEEAA2726E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E21690-6ED8-46B3-9039-9AAEEAA2726E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E21690-6ED8-46B3-9039-9AAEEAA2726E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E21690-6ED8-46B3-9039-9AAEEAA2726E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC9FD097-77CD-40A4-8B6E-B21CDC3FF641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9FD097-77CD-40A4-8B6E-B21CDC3FF641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9FD097-77CD-40A4-8B6E-B21CDC3FF641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9FD097-77CD-40A4-8B6E-B21CDC3FF641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3375372-577F-4309-AA2A-E6E6F8694B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3375372-577F-4309-AA2A-E6E6F8694B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3375372-577F-4309-AA2A-E6E6F8694B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3375372-577F-4309-AA2A-E6E6F8694B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D05CC4-6455-4293-B8E8-49BC7CEAC7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D05CC4-6455-4293-B8E8-49BC7CEAC7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D05CC4-6455-4293-B8E8-49BC7CEAC7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D05CC4-6455-4293-B8E8-49BC7CEAC7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{954C9305-4AFE-406F-B9AE-18F1D50FC6BF} = {92A8979F-2066-4E35-9B8F-A950463A3FFB}
+		{23E5005D-1DCE-4DCC-9CC7-4A8E790988E5} = {CD80D76C-7A23-49E9-8C75-985C5DF389C9}
+		{B4E21690-6ED8-46B3-9039-9AAEEAA2726E} = {1E15F715-2D70-413A-AB15-1380BEA9F425}
+		{EC9FD097-77CD-40A4-8B6E-B21CDC3FF641} = {954C9305-4AFE-406F-B9AE-18F1D50FC6BF}
+		{D3375372-577F-4309-AA2A-E6E6F8694B07} = {EE7DC221-1BE9-43DB-854F-32190ED87284}
+		{71D05CC4-6455-4293-B8E8-49BC7CEAC7E5} = {F9FE76B5-AB95-4D76-8CF8-31E16D47C731}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB801DCA-43E0-438F-A36F-90B89E17D79C}
+	EndGlobalSection
+EndGlobal

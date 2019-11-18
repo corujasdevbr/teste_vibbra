@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
-function HeaderAdmin(props){
+function HeaderAdmin(props) {
 
     const sair = () => {
         localStorage.clear();
-        props.history.push('/')
+        window.location.href = '/';
     }
 
     return (

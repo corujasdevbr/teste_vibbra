@@ -1,0 +1,61 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "admin@email.com",
+      "senha": "123456",
+      "tipoUsuario": 1
+    },
+    {
+      "email": "rh@email.com",
+      "senha": "123456",
+      "tipoUsuario": 2,
+      "dados": {
+        "nomeUsuario": "Fernando Henrique",
+        "razaoSocial": "CorujasDev",
+        "cnpj": "54.545.454/5454-55"
+      },
+      "id": 2
+    },
+    {
+      "email": "profissional@email.com",
+      "senha": "123456",
+      "tipoUsuario": 3,
+      "dados": {
+        "nomeUsuario": "corujasdev",
+        "nome": "Fernando Henrique",
+        "cpf": "323.232.323-23",
+        "rg": "65656565655"
+      },
+      "id": 3
+    }
+  ],
+  "locais": [
+    {
+      "nome": "Fernando Henrique",
+      "descricaoLocal": "3",
+      "quantCadeiras": "3",
+      "custoHora": "2.541,25",
+      "cep": "01549-020",
+      "logradouro": "Rua Pereira da Nóbrega",
+      "bairro": "Vila Monumento",
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "imagem": "weddeweeew",
+      "id": 3
+    },
+    {
+      "nome": "Fernando Henrique 1",
+      "descricaoLocal": "2",
+      "quantCadeiras": "5",
+      "custoHora": "545,78",
+      "cep": "01547-020",
+      "logradouro": "Rua Crisoberilo",
+      "bairro": "Jardim da Glória",
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "imagem": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png",
+      "id": 4
+    }
+  ]
+}

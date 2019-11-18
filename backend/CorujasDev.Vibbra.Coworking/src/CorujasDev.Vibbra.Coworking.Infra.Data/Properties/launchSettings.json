@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CorujasDev.Vibbra.Coworking.Infra.Data": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Key": "Value"
+      }
+    }
+  }
+}

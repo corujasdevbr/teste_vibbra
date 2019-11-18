@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import {
+    Route,
+    BrowserRouter as Router,
+    Switch,
+    Redirect
+} from "react-router-dom";
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -13,6 +18,21 @@ import AdminLocais from './pages/admin/locais';
 
 import * as serviceWorker from './serviceWorker';
 
+import { parseJwt, usuarioAutenticado } from './util/auth';
+
+
+const PermissaoAdmin = ({ component: Component }) => (
+    <Route
+        render={props =>
+            usuarioAutenticado() && parseJwt().TypeUser === "Administrator" ? (
+                <Component {...props} />
+            ) : (
+                    <Redirect to={{ pathname: "/" }} />
+                )
+        }
+    />
+);
+
 const Routes = () => (
     <Router>
         <div>
@@ -20,9 +40,9 @@ const Routes = () => (
                 <Route exact path="/" component={Login} />
                 <Route path="/conta/rh" component={CriarContaRh} />
                 <Route path="/conta/profissional" component={CriarContaProfissional} />
-                
-                <Route path="/admin/dashboard"  component={AdminDashboard} />
-                <Route path="/admin/locais"  component={AdminLocais} />
+
+                <PermissaoAdmin path="/admin/dashboard" component={AdminDashboard} />
+                <PermissaoAdmin path="/admin/locais" component={AdminLocais} />
             </Switch>
         </div>
     </Router>

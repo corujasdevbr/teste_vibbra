@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CorujasDev.Vibbra.Coworking.Core\CorujasDev.Vibbra.Coworking.Core.csproj" />
+    <ProjectReference Include="..\CorujasDev.Vibbra.Coworking.Domain\CorujasDev.Vibbra.Coworking.Domain.csproj" />
+    <ProjectReference Include="..\CorujasDev.Vibbra.Coworking.Infra.Data\CorujasDev.Vibbra.Coworking.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
